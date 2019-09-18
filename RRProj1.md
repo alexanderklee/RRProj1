@@ -174,7 +174,7 @@ We will now generate a histogram of the total number of steps taken each day and
 hist(sumdata$steps, col = "green" ,xlab = "Steps" ,main = "Total Number of Steps Per Day (with the missing data filled in)")
 ```
 
-![](RRProj1_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
+![](RRProj1_files/figure-html/histogram-1.png)<!-- -->
 
 ## Determining the difference in activity patterns between weekdays and weekends
 
@@ -236,4 +236,4 @@ plot(weekdayMean$interval, weekdayMean$steps ,xlab = "interval", ylab = "Number 
 plot(weekendMean$interval, weekendMean$steps ,xlab = "interval", ylab = "Number of steps" ,main ="Weekend", col ="red", type="l")
 ```
 
-![](RRProj1_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
+![](RRProj1_files/figure-html/unnamed-chunk-16-1.png)<!-- -->
